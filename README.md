@@ -39,19 +39,10 @@ Com o Aparatu, o usuário pode:
 > As imagens abaixo representam o estado atual do projeto.
 
 ### Home
-![Home](./public/mobile/Home.png)
-
-### Barbearia
-![Barbearia](./public/banner.png)
-
-### Fazer Reserva
-![Fazer Reserva](./public/mobile/Fazer%20Reserva.png)
+![Home](./public/BG-menor.png)
 
 ### Agendamentos
-![Agendamentos](./public/mobile/Agendamentos.png)
-
-### Assistente Inteligente
-![Agenda.ai](./public/mobile/Chat.png)
+![Agendamentos](./public/mobile/Home.png)
 
 ---
 
