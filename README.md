@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✂️ Aparatu
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Claude%20Code-4B5563)
 
-First, run the development server:
+**Aparatu** é um **SaaS de agendamentos para barbearias**, criado para conectar clientes às melhores barbearias de forma simples, rápida e inteligente.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+O cliente escolhe:
+- a barbearia
+- o serviço desejado
+- o melhor dia e horário  
+
+Tudo em uma experiência **mobile‑first**, moderna e focada em produto real.
+
+---
+
+## 🚀 Visão do Produto
+
+Aparatu resolve um problema comum no dia a dia das barbearias:  
+❌ agendamentos manuais  
+❌ mensagens perdidas  
+❌ conflitos de horário  
+
+Com o Aparatu, o usuário pode:
+- 🔍 Descobrir barbearias
+- ✂️ Visualizar serviços disponíveis
+- 📅 Agendar cortes e outros serviços
+- ⏰ Escolher horários disponíveis em tempo real
+- 🤖 Utilizar o **Agenda.ai**, um assistente inteligente de agendamentos
+
+---
+
+## 📱 Preview da Aplicação
+
+> As imagens abaixo representam o estado atual do projeto.
+
+### Home
+![Home](./public/images/Home.png)
+
+### Barbearia
+![Barbearia](./public/images/Barbearia.png)
+
+### Fazer Reserva
+![Fazer Reserva](./public/images/Fazer%20Reserva.png)
+
+### Agendamentos
+![Agendamentos](./public/images/Agendamentos.png)
+
+### Assistente Inteligente
+![Agenda.ai](./public/images/Chat.png)
+
+---
+
+## 🧠 Agenda.ai — Assistente Inteligente
+
+O **Agenda.ai** é um assistente de IA integrado ao produto, responsável por:
+
+- Auxiliar na escolha de horários
+- Sugerir barbearias
+- Tornar o processo de agendamento mais fluido
+- Reduzir atrito na experiência do usuário
+
+A IA está sendo implementada com apoio do **Claude Code**, integrada diretamente ao fluxo do sistema.
+
+---
+
+## 🧩 Arquitetura
+
+Arquitetura moderna, desacoplada e preparada para escalar:
+
+```
+Frontend (Next.js)
+   ↓
+Backend (NestJS)
+   ↓
+Prisma ORM
+   ↓
+PostgreSQL
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Stack Tecnológica
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ⚡ **Next.js**
+- 🟦 **TypeScript**
+- 🧬 **Prisma**
+- 🔐 **Better Auth**
+- 🐘 **PostgreSQL**
+- 🧠 **Claude Code (IA)**
+- 🏗️ **NestJS (backend)**
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Status do Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🚧 **Em desenvolvimento ativo**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Próximos passos:
+- Backend completo em NestJS
+- Regras de disponibilidade e conflitos
+- Painel da barbearia
+- Testes automatizados
+- Deploy e CI/CD
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👩‍💻 Desenvolvedora
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projeto desenvolvido por **Viviane Aguiar**.
+
+- 💻 GitHub: https://github.com/vivianeaguiarc  
+- 💼 LinkedIn: https://www.linkedin.com/in/vivianeaguiarc/
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.
